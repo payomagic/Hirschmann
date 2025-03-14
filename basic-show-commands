@@ -1,0 +1,15 @@
+show port all
+show mtu 
+show mrp
+show prp instance 1
+show interface counters 
+show running-config script
+show sfp
+show port 1/1
+show vlan brief
+show vlan member current
+show logging buffered 
+clear port stats
+show system info
+show network parms
+
