@@ -1,0 +1,17 @@
+no network ipv6 operation 
+  network ipv6 protocol none
+  network dhcp config-load disable
+
+  network hidiscovery operation disable
+  network hidiscovery mode read-only
+
+  no network usb operation 
+
+  network out-of-band protocol none
+  no network out-of-band operation
+
+  network management access web timeout 5
+  
+  cli serial-timeout 5
+
+  To Be Continued...
