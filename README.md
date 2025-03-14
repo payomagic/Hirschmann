@@ -1,0 +1,2 @@
+# Hirschmann
+Hirschmann configurations specific
