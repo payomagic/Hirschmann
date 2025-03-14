@@ -14,4 +14,32 @@ no network ipv6 operation
   
   cli serial-timeout 5
 
+configure
+
+no telnet server
+no http server
+ssh max-sessions 2
+ssh timeout 5
+
+no snmp access version v1
+no snmp access version v2
+
+authlists set-policy defaultDot1x8021AuthList reject reject reject reject reject
+
+dos icmp-smurf-attack
+dos ip-land enable
+dos tcp-null
+dos tcp-syn
+dos tcp-syn-fin
+dos tcp-xmas
+no dos l4-port
+
+spanning-tree operation
+spanning-tree bpdu-guard
+auto-disable reason bpdu-rate enable
+
+interface all
+auto-disable timer 30
+exit
+
   To Be Continued...
